@@ -2,13 +2,13 @@
 
 This repository is for **LeCoder**, an automated error coding tool for word production tasks. It implements a data-driven approach, coding errors based on *cosine similarity in semantic vector representations* and *the normalized Levenshtein distance between IPA transcriptions* of target-response pairs. 
 
-For more details on the methodology and evaluation, please refer to our paper (coming soon).
+For more details on the methodology and evaluation, please refer to our paper (https://osf.io/preprints/psyarxiv/jhng4_v1).
 
 ## I. Installation
 Download the folder or clone the repository. It should contain the following files:
 > + `LeCoder.exe`  
 > + `LeCoder_Data.csv`
-> + `README_GUI.md` (This File)  
+> + `README.md` (This File)  
 
 `LeCoder.exe` is a standalone executable that does not require any additional software or dependencies to be installed.
 
@@ -67,7 +67,9 @@ The human codes have taken into account dialectical and participant-specific va
 We do not guarantee the accuracy of human coding. In fact, part of the claimed utility of LeCoder is that human coding could be inconsistent and/or error-prone.
 
 ## VI. References
-+ For more details on LeCoder, please refer to our paper (coming soon).
++ For more details on LeCoder, please refer to our paper:
+*LeCoder: A Large-Scale Automated Coder for Coding Errors
+in Word Production Tasks* at https://osf.io/preprints/psyarxiv/jhng4_v1
 
 + Brysbaert, M., & New, B. (2009). Moving beyond Kučera and Francis: A critical evaluation of current word frequency norms and the introduction of a new and improved word frequency measure for American English. Behavior research methods, 41(4), 977-990.
 
