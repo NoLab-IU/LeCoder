@@ -7,6 +7,7 @@ For more details on the methodology and evaluation, please refer to our paper (c
 ## I. Installation
 Download the folder or clone the repository. It should contain the following files:
 > + `LeCoder.exe`  
+> + `LeCoder_Data.csv`
 > + `README_GUI.md` (This File)  
 
 `LeCoder.exe` is a standalone executable that does not require any additional software or dependencies to be installed.
@@ -55,7 +56,17 @@ The output will contain error codings for each input target-response pair, with 
 >**HR**: Hypernym (if `hyperhyponym`=True, otherwise as **S**)  
 >**HO**: Hyponym (if `hyperhyponym`=True, otherwise as **S**) 
 
-## V. References
+## V. Data
+We also include the data used to train LeCoder (See our paper for details on the datasets). To test LeCoder's perforamnce with this sample data, please first read the disclaimers below. Then remove the disclaimers from the `LeCoder_Data.csv` file so that LeCoder can load the data correctly.
+
+Please note that the `LeCoder_Data.csv` file includes data from both datasets D1 and D2. The source dataset is specified in the **Subject ID** column. For example, subject D1P1 refers to the first participant from dataset D1.
+
+> + **Disclaimer 1.**   
+The human codes have taken into account dialectical and participant-specific variations in pronunciation, hence minor discrepancies between Response and ResponseIPA.
+> + **Disclaimer 2.**  
+We do not guarantee the accuracy of human coding. In fact, part of the claimed utility of LeCoder is that human coding could be inconsistent and/or error-prone.
+
+## VI. References
 + For more details on LeCoder, please refer to our paper (coming soon).
 
 + Brysbaert, M., & New, B. (2009). Moving beyond Kučera and Francis: A critical evaluation of current word frequency norms and the introduction of a new and improved word frequency measure for American English. Behavior research methods, 41(4), 977-990.
